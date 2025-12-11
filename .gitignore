@@ -1,0 +1,46 @@
+# Large data files
+sensor.csv
+*.csv
+
+# Kiro IDE files
+.kiro/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# PDF files
+*.pdf
+
+# Test files
+test_*.py
+*_test.py
+
+# Models (if they get large)
+models/*.h5
+models/*.keras
+models/*.pb
+
+# OS files
+.DS_Store
+Thumbs.db

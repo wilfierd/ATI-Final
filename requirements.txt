@@ -1,0 +1,24 @@
+# Industrial Pump Predictive Maintenance - Dependencies
+# Core ML/DL
+tensorflow>=2.12.0
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Class imbalance handling
+imbalanced-learn>=0.10.0
+
+# Testing
+pytest>=7.0.0
+hypothesis>=6.70.0
+
+# Jupyter/Colab support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Utilities
+joblib>=1.2.0
