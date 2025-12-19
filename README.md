@@ -33,32 +33,8 @@ A deep learning solution using GRU (Gated Recurrent Unit) networks to predict in
 │   ├── label_encoder.pkl                         #   Label encoder
 │   └── config.pkl                                #   Model configuration
 └── reports/                                       # Written report
-    ├── 62FIT4ATI_Group_29_Report.md              #   Markdown version
-    └── 62FIT4ATI_Group_29_Report.tex             #   LaTeX version
-```
-
----
-
-## Quick Start
-
-### Option 1: Google Colab (Recommended)
-
-1. Upload `sensor.csv` to Google Drive (root of MyDrive)
-2. Open `62FIT4ATI_Group_29_Topic_2.ipynb` in Colab
-3. Run all cells from top to bottom
-
-### Option 2: Local Environment
-
-```bash
-# 1. Clone repository
-git clone <repository-url>
-cd Final
-
-# 2. Install dependencies
-pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
-
-# 3. Run Jupyter notebook
-jupyter notebook 62FIT4ATI_Group_29_Topic_2.ipynb
+    ├── ATI_Report.md                              #   Markdown version
+    └── ATI_Report.pdf                             #   PDF version
 ```
 
 ---
