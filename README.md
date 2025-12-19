@@ -23,7 +23,7 @@ A deep learning solution using GRU (Gated Recurrent Unit) networks to predict in
 
 ```
 .
-├── 62FIT4ATI_Group_29_Topic_2_TimeSeries.ipynb   # Main notebook (run this)
+├── 62FIT4ATI_Group_29_Topic_2.ipynb              # Main notebook (run this)
 ├── README.md                                      # This file
 ├── sensor.csv                                     # Dataset (220,320 samples)
 ├── models/                                        # Trained model files
@@ -32,9 +32,9 @@ A deep learning solution using GRU (Gated Recurrent Unit) networks to predict in
 │   ├── scaler.pkl                                #   Data scaler
 │   ├── label_encoder.pkl                         #   Label encoder
 │   └── config.pkl                                #   Model configuration
-├── reports/                                       # Written report
-│   └── 62FIT4ATI_Group_29_Report.md              #   Analysis report (3-5 pages)
-└── notebooks/                                     # Additional notebooks (if any)
+└── reports/                                       # Written report
+    ├── 62FIT4ATI_Group_29_Report.md              #   Markdown version
+    └── 62FIT4ATI_Group_29_Report.tex             #   LaTeX version
 ```
 
 ---
@@ -44,7 +44,7 @@ A deep learning solution using GRU (Gated Recurrent Unit) networks to predict in
 ### Option 1: Google Colab (Recommended)
 
 1. Upload `sensor.csv` to Google Drive (root of MyDrive)
-2. Open `62FIT4ATI_Group_29_Topic_2_TimeSeries.ipynb` in Colab
+2. Open `62FIT4ATI_Group_29_Topic_2.ipynb` in Colab
 3. Run all cells from top to bottom
 
 ### Option 2: Local Environment
@@ -58,7 +58,7 @@ cd Final
 pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
 
 # 3. Run Jupyter notebook
-jupyter notebook 62FIT4ATI_Group_29_Topic_2_TimeSeries.ipynb
+jupyter notebook 62FIT4ATI_Group_29_Topic_2.ipynb
 ```
 
 ---
