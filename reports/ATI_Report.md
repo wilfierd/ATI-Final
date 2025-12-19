@@ -1,10 +1,11 @@
 # Project 2 Report: GRU-Based Predictive Maintenance for Industrial Pump Systems
 
-**Course:** 62FIT4ATI - Artificial Intelligence
+**Course:** 62FIT4ATI - Advanced Topic in Information Technology
 **Group:** 29
+**Class:** 03
 **Members:** Nguyen Trung Hieu, Tran Nguyen Khai, Dao Viet Anh
 **Lecturer:** Nguyen Xuan Thang
-**Semester:** Fall 2024
+**Semester:** Fall 2025
 
 ---
 
@@ -147,4 +148,4 @@ Future work could focus on collecting more failure data and exploring unsupervis
 
 ---
 
-**62FIT4ATI - Group 29 - Topic 2**
+**62FIT4ATI Class 03 - Group 29 - Topic 2**

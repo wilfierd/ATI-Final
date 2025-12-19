@@ -1,7 +1,8 @@
 # Industrial Pump Predictive Maintenance
 
-**Course:** 62FIT4ATI - Artificial Intelligence
+**Course:** 62FIT4ATI - Advanced Topic in Information Technology
 **Group:** 29
+**Class:** 03
 **Topic:** 2 - Recurrent Neural Network for Predictive Maintenance
 
 ---
@@ -94,5 +95,4 @@ with open('models/config.pkl', 'rb') as f:
 
 ## Authors
 
-**Group 29** - 62FIT4ATI Artificial Intelligence
-
+**Group 29** - 62FIT4ATI Class 03 - Advanced Topic in Information Technology
