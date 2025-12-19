@@ -29,8 +29,6 @@ ENV/
 .vscode/
 .idea/
 
-# PDF files
-*.pdf
 
 # Test files
 test_*.py
@@ -43,3 +41,4 @@ models/*.pb
 # OS files
 .DS_Store
 Thumbs.db
+*.docx
