@@ -37,22 +37,6 @@ A deep learning solution using GRU (Gated Recurrent Unit) networks to predict in
     └── ATI_Report.pdf                             #   PDF version
 ```
 
----
-
-## Dataset
-
-- **Source:** Industrial pump sensor readings
-- **Samples:** 220,320
-- **Features:** 52 sensors
-- **Target Classes:**
-  - NORMAL: 219,420 (99.59%)
-  - RECOVERING: 893 (0.41%)
-  - BROKEN: 7 (0.003%)
-
-**Challenge:** Extreme class imbalance - only 7 failure samples!
-
----
-
 ## Methodology
 
 ### Techniques Used
@@ -64,10 +48,6 @@ A deep learning solution using GRU (Gated Recurrent Unit) networks to predict in
 | Class Weights | Increase importance of minority classes |
 | Gradient Clipping | Prevent exploding gradients |
 | Early Stopping | Prevent overfitting |
-
-### Why NOT SMOTE?
-
-SMOTE creates synthetic samples by interpolation. For time-series data, this breaks temporal dependencies and creates unrealistic patterns.
 
 ---
 
@@ -100,28 +80,6 @@ with open('models/config.pkl', 'rb') as f:
     config = pickle.load(f)
 ```
 
----
-
-## Results Summary
-
-### Binary Model (Recommended for Production)
-
-- **Balanced Accuracy:** 93.11%
-- **ROC-AUC:** 96.11%
-- **Anomaly Recall:** 88.2%
-
-The Binary model is recommended for production use because:
-1. Higher balanced accuracy
-2. Better discrimination (ROC-AUC)
-3. Simpler decision: "Is something wrong?" vs "What exactly is wrong?"
-
-### 3-Class Model
-
-- **Balanced Accuracy:** 62.46%
-- Cannot distinguish BROKEN from RECOVERING (insufficient BROKEN samples)
-
----
-
 ## Requirements
 
 - Python 3.8+
@@ -138,8 +96,3 @@ The Binary model is recommended for production use because:
 
 **Group 29** - 62FIT4ATI Artificial Intelligence
 
----
-
-## License
-
-This project is for educational purposes as part of the 62FIT4ATI course.
